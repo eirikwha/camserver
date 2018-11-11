@@ -14,7 +14,6 @@ class Camera(object):
 
         pygame.init()
         pygame.camera.init()
-
         self._camera = pygame.camera.Camera(self._device, self._size)
         self._camera.start()
 

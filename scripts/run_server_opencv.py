@@ -14,7 +14,7 @@ def main():
             break
 
         img = camera.capture()
-        buf = img.tostring()
+        buf = img.tostring(None)
         server.sendall(buf)
 
 
