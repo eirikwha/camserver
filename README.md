@@ -1,3 +1,16 @@
+To run:
+- Dowload this repository
+https://github.com/tingelst/tpk4128-industrial-mechatronics/
+
+- Replace the camera.py and camera_opencv.py with the ones in this repo.
+- Run pip install -e "PATH to tpk4128-industrial-mechatronics", for the actual folderpath here
+
+- Make sure opencv and pygame is installed in your enviroment
+
+In terminal:
+
+python3 ....
+
 ## Exercise: Building a webcam server using OpenCV and Python
 
 The task is to build a Python module that implements a socket server that fetches images from a webcam and sends it over a TCP/IP or UDP socket when it gets a request from a client.
