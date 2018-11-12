@@ -1,3 +1,6 @@
+Two different camera server implementations using pygame and opencv.
+==========
+
 To run:
 - Dowload this repository
 https://github.com/tingelst/tpk4128-industrial-mechatronics/
